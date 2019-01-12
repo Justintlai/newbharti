@@ -11,10 +11,15 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "boom": "^7.3.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "method-override": "^3.0.0",
+    "moment": "^2.23.0",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
