@@ -1,11 +1,57 @@
 <% include partials/header %>
 
-<div class="jumbotron">
-  <h1>This is a page header</h1>
+
+
+
+<div class="uk-section">
+
+  <div class="uk-container uk-width-1-1">
+    <div class="uk-flex uk-flex-row uk-flex-middle uk-flex-center uk-background-muted pt-3 pb-1">
+      <a id="btn-posts" class="uk-button uk-button-primary" href="/posts">View Posts</a>
+      <a href="#" class="uk-button uk-button-primary btn-close ml-1 mr-1 hidden" uk-tooltip="close"><span uk-icon="close"></span></a>
+    </div>
+
+    <div id="filters" class="filters p-3 uk-flex uk-flex-row uk-flex-middle uk-flex-center uk-background-muted hidden"></div>
+
+    <table id="post-table" class="uk-table uk-table-hover uk-table-striped hidden" style="width:100%">
+      <thead>
+        <tr>
+          <th>Posts</th>
+          <th>Vacancy Name</th>
+          <th>Location</th>
+          <th>Number of Posts</th>
+          <th>Total Number</th>
+          <th>Salary Range 1</th>
+          <th>Salary Range 2</th>
+          <th>Salary (extra info)</th>
+          <th>Male or Female</th>
+          <th>Upper Date</th>
+          <th>Lower Date</th>
+          <th>Department</th>
+          <th>Notification Date</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
 </div>
-
-<a id="posts" class="btn btn-primary" href="/posts">GET POSTS</a>
-
-<div class="data"></div>
 
 <% include partials/footer %>

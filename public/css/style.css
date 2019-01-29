@@ -292,9 +292,6 @@ a.btn-shadow:hover, button.btn-shadow:hover {
   color: #333 !important;
 }
 
-.btn-aog{
-  font-weight: 500;
-}
 
 .btn-hollow {
   border: 3px solid #ffeaa7;
@@ -310,7 +307,9 @@ a.btn-shadow:hover, button.btn-shadow:hover {
   margin-left: 10px;
 }
 
-
+.hidden{
+  display: none;
+}
 /* 
 ================================================================
 
