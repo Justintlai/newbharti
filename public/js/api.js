@@ -28,7 +28,7 @@ document.getElementById("btn-posts").onclick = function (e) {
 
   $("#post-table").DataTable({
     dom: "<'top'Bfl>rtip",
-    ajax: "http://localhost:4000/posts",
+    ajax: "/posts",
     initComplete: function () {
       $(".filters").empty();
       this.api().columns([0, 1, 2, 8, 9, 10]).every(function (i) {
